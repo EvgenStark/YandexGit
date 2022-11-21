@@ -14,7 +14,7 @@ class Window(QMainWindow):
 
     def draw(self):
         self.size = random.randint(10, 100)
-        self.color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))  # 'yellow'
+        self.color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
         self.flag = True
         self.update()
 
